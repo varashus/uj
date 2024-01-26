@@ -707,7 +707,7 @@ RectTransform:
   m_GameObject: {fileID: 1347273442}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10.5, y: 5, z: 1}
+  m_LocalScale: {x: 10.5, y: 5.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1206327264}
@@ -844,7 +844,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: SampleScene
+          m_StringArgument: Level1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1781899508
@@ -1064,6 +1064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 2198908252994999965, guid: 7a1d9adb054cc7a43a40e7780c7c0ca6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8831876872236461212, guid: 7a1d9adb054cc7a43a40e7780c7c0ca6,
         type: 3}

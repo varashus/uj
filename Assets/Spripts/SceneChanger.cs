@@ -17,7 +17,7 @@ public class SceneChanger : MonoBehaviour
     {
         transition.SetTrigger("Start");
 
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(2.8f);
 
         SceneManager.LoadScene(sceneName);
     }
